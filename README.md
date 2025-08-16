@@ -4,13 +4,13 @@ This project showcases a responsive 3D rotating cube animation implemented using
 
 ## Table of Contents
 
-  * [Features](https://www.google.com/search?q=%23features)
-  * [Technologies Used](https://www.google.com/search?q=%23technologies-used)
-  * [Setup Instructions](https://www.google.com/search?q=%23setup-instructions)
-  * [Project Structure](https://www.google.com/search?q=%23project-structure)
-  * [Animation Details](https://www.google.com/search?q=%23animation-details)
-  * [Responsiveness](https://www.google.com/search?q=%23responsiveness)
-  * [Contact](https://www.google.com/search?q=%23contact)
+  * Features
+  * Technologies Used
+  * Setup Instructions
+  * Project Structure
+  * Animation Details
+  * Responsiveness
+  * Contact
 
 -----
 

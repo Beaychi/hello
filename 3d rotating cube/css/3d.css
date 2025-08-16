@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext");
+
+/* #Primary
+================================================== */
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #212112;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 7%;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: all 200ms linear;
+}
+::selection {
+  color: #fff;
+  background-color: #8167a9;
+}
+::-moz-selection {
+  color: #fff;
+  background-color: #8167a9;
+}
+
+
+
+.rotate {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  right: 0; /* Adjust this value as needed */
+  top: 50%;
+  transform: translate(0, -50%);
+  border-radius: 10%;
+  margin-right: 50px;
+}
+
+#cube, .face {
+  position: absolute;
+  background: url("https://assets.codepen.io/721952/dieSprite_1.svg");
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  border-radius: 10%;
+}
+
+.face img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  border-radius: 10%;
+}
+
+@media screen and (max-width:425px) {
+  .rotate {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
+    right: 0; /* Adjust this value as needed */
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 10%;
+    margin-right: 80px;
+  }
+}
+
+@media screen and (max-width:378px) {
+  .rotate {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    perspective: 2000px;
+    right: 0; /* Adjust this value as needed */
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 10%;
+    margin-right:70px;
+  }
+}
